@@ -5,11 +5,11 @@ let timer;
 let images = ["img/1.png","img/2.png","img/3.png","img/4.png"];
 let img = 1;
 
-buttons[0].addEventListener('click', function () { getImg(-1); });
-buttons[1].addEventListener('click', function () { setTimer(); });
-buttons[2].addEventListener('click', function () { getImg(); });
+buttons[0].addEventListener('click', () => { getImg(-1); });
+buttons[1].addEventListener('click', () => { setTimer(); });
+buttons[2].addEventListener('click', () => { getImg(); });
 
-document.addEventListener('keyup', function (event) {
+document.addEventListener('keyup', event => {
     switch (event.keyCode) {
         case 177:
         case 37:
@@ -26,9 +26,7 @@ document.addEventListener('keyup', function (event) {
 });
 
 const getImg = (next = 1) => {
-    
     clearTimeout(timer);
-
     if ( next === -1 && img === 0) {
         img = images.length-1;
     }
