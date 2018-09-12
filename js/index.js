@@ -36,7 +36,6 @@ const getImg = (next = 1) => {
     else {
         img += next;
     }
-
     if ( timeout === true ) {
         changeImg();
         timer = setTimeout(function(){ getImg(); }, 1000);
