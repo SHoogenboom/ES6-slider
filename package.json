@@ -1,0 +1,28 @@
+{
+  "name": "es5-slider",
+  "version": "1.0.0",
+  "description": "",
+  "main": "gulpfile.js",
+  "dependencies": {
+    "gulp": "^3.9.1",
+    "gulp-sass": "^4.0.1",
+    "node-normalize-scss": "^8.0.0"
+  },
+  "devDependencies": {
+    "gulp-clean-css": "^3.10.0",
+    "gulp-watch": "^5.0.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SHoogenboom/ES5-slider.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SHoogenboom/ES5-slider/issues"
+  },
+  "homepage": "https://github.com/SHoogenboom/ES5-slider#readme"
+}
